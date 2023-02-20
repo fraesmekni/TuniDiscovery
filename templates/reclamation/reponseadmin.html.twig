@@ -1,0 +1,22 @@
+{{ include('header-client.html.twig') }}
+
+{% block body %}
+    <br><br>
+    <br><br>
+<table align="center">
+   <tr>
+       <td>
+           <h3>Votre Reponse est:</h3>
+       </td>
+   </tr>
+    <tr>
+
+    <td>
+           <h3 align="center"> {{ reclamation.reponse }}</h3>
+       </td>
+
+   </tr>
+</table>
+    <br><br><br><br>
+{% endblock %}
+{{ include('footer.html.twig') }}
